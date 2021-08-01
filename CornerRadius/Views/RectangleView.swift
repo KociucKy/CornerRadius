@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct RectangleView: View {
+    let width: CGFloat
+    let height: CGFloat
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Rectangle()
+            .fill(Color("RectangleColor"))
+            .frame(width: width, height: height)
+            .shadow(radius: General.sizes.shadow, x: General.sizes.shadow, y: General.sizes.shadow)
+            
     }
 }
 
 struct RectangleView_Previews: PreviewProvider {
     static var previews: some View {
-        RectangleView()
+        ZStack {
+            BackgroundView()
+            RectangleView(width: 300, height: 150)
+        }
     }
 }

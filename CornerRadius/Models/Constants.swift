@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
 enum General{
-    
+    enum sizes{
+        public static let biggerRecSize = CGFloat(300.0)
+        public static let smallerRecSize = CGFloat(150.0)
+        public static let shadow = CGFloat(5.0)
+    }
 }
