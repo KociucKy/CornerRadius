@@ -13,5 +13,8 @@ enum General{
         public static let biggerRecSize = CGFloat(300.0)
         public static let smallerRecSize = CGFloat(150.0)
         public static let shadow = CGFloat(5.0)
+        public static let inputWidth = CGFloat(130.0)
+        public static let inputHeight = CGFloat(50.0)
+        public static let cornerRadius = CGFloat(21.0)
     }
 }

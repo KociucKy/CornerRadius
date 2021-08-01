@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct InputFieldView: View {
+    @Binding var input: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Value", text: $input)
+            .font(.title)
+            .multilineTextAlignment(.center)
+            .foregroundColor(Color("TextColor"))
+            .frame(width: General.sizes.inputWidth, height: General.sizes.inputHeight, alignment: .center)
+            .background(Color("InputColor"))
+            .cornerRadius(General.sizes.cornerRadius)
+            .shadow(radius: General.sizes.shadow, x:General.sizes.shadow, y:General.sizes.shadow)
     }
 }
 
 struct InputFieldView_Previews: PreviewProvider {
     static var previews: some View {
-        InputFieldView()
+        InputFieldView(input: .constant("21.0"))
     }
 }

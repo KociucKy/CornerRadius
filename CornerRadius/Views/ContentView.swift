@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var turning = false
+    @State private var input = ""
     
     var body: some View {
         ZStack {
@@ -23,6 +24,11 @@ struct ContentView: View {
                     RectangleView(width: General.sizes.smallerRecSize, height: General.sizes.biggerRecSize)
                 }else{
                     RectangleView(width: General.sizes.biggerRecSize, height: General.sizes.smallerRecSize)
+                }
+                
+                VStack{
+                    InputFieldView(input: $input)
+                        .padding()
                 }
             }
         }
