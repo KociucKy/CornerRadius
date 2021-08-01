@@ -15,6 +15,7 @@
 		8800D1F726B6C37D00A686FB /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1F626B6C37D00A686FB /* RectangleView.swift */; };
 		8800D1F926B6C38D00A686FB /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1F826B6C38D00A686FB /* InputFieldView.swift */; };
 		8800D1FB26B6C39700A686FB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1FA26B6C39700A686FB /* ButtonView.swift */; };
+		8800D1FD26B6C3CC00A686FB /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8800D1F626B6C37D00A686FB /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8800D1F826B6C38D00A686FB /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 		8800D1FA26B6C39700A686FB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8800D1E526B6C11800A686FB /* ContentView.swift */,
+				8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */,
 				8800D1F626B6C37D00A686FB /* RectangleView.swift */,
 				8800D1F826B6C38D00A686FB /* InputFieldView.swift */,
 				8800D1FA26B6C39700A686FB /* ButtonView.swift */,
@@ -169,6 +172,7 @@
 				8800D1E626B6C11800A686FB /* ContentView.swift in Sources */,
 				8800D1E426B6C11800A686FB /* CornerRadiusApp.swift in Sources */,
 				8800D1FB26B6C39700A686FB /* ButtonView.swift in Sources */,
+				8800D1FD26B6C3CC00A686FB /* BackgroundView.swift in Sources */,
 				8800D1F726B6C37D00A686FB /* RectangleView.swift in Sources */,
 				8800D1F926B6C38D00A686FB /* InputFieldView.swift in Sources */,
 				8800D1F526B6C36100A686FB /* Constants.swift in Sources */,
