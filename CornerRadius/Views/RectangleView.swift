@@ -10,13 +10,14 @@ import SwiftUI
 struct RectangleView: View {
     let width: CGFloat
     let height: CGFloat
+    let radius: CGFloat
     
     var body: some View {
         Rectangle()
             .fill(Color("RectangleColor"))
             .frame(width: width, height: height)
+            .cornerRadius(radius)
             .shadow(radius: General.sizes.shadow, x: General.sizes.shadow, y: General.sizes.shadow)
-            
     }
 }
 
@@ -24,7 +25,7 @@ struct RectangleView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             BackgroundView()
-            RectangleView(width: 300, height: 150)
+            RectangleView(width: 300, height: 150, radius: 0)
         }
     }
 }

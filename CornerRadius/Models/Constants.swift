@@ -18,3 +18,8 @@ enum General{
         public static let cornerRadius = CGFloat(21.0)
     }
 }
+
+func convertingToCGFloat(input: String) -> CGFloat{
+    guard let value = NumberFormatter().number(from: input) else { return 0 }
+    return CGFloat(truncating: value)
+}

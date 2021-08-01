@@ -21,9 +21,9 @@ struct ContentView: View {
                 })
                 
                 if turning == true {
-                    RectangleView(width: General.sizes.smallerRecSize, height: General.sizes.biggerRecSize)
+                    RectangleView(width: General.sizes.smallerRecSize, height: General.sizes.biggerRecSize, radius: convertingToCGFloat(input: input))
                 }else{
-                    RectangleView(width: General.sizes.biggerRecSize, height: General.sizes.smallerRecSize)
+                    RectangleView(width: General.sizes.biggerRecSize, height: General.sizes.smallerRecSize, radius: convertingToCGFloat(input: input))
                 }
                 
                 VStack{

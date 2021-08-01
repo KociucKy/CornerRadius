@@ -18,6 +18,7 @@ struct InputFieldView: View {
             .background(Color("InputColor"))
             .cornerRadius(General.sizes.cornerRadius)
             .shadow(radius: General.sizes.shadow, x:General.sizes.shadow, y:General.sizes.shadow)
+            .keyboardType(.numberPad)
     }
 }
 
