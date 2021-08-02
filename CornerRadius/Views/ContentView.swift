@@ -10,25 +10,28 @@ import SwiftUI
 struct ContentView: View {
     @State private var turning = false
     @State private var input = ""
+    @State private var topLeftInput = ""
+    @State private var topRightInput = ""
+    @State private var bottomLeftInput = ""
+    @State private var bottomRightInput = ""
+    @State private var text = "Hello World"
     
     var body: some View {
         ZStack {
             BackgroundView()
             
             VStack{
-                Button(action: {turning.toggle()}, label: {
-                    TurnButton()
-                })
-                
-                if turning == true {
-                    RectangleView(width: General.sizes.smallerRecSize, height: General.sizes.biggerRecSize, radius: convertingToCGFloat(input: input))
-                }else{
-                    RectangleView(width: General.sizes.biggerRecSize, height: General.sizes.smallerRecSize, radius: convertingToCGFloat(input: input))
-                }
+                Text(input)
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+                    .padding(20)
+                    .background(RectangleView(color: Color("RectangleColor"), tl: convertingToCGFloat(input: topLeftInput), tr: convertingToCGFloat(input: topRightInput), bl: convertingToCGFloat(input: bottomLeftInput), br: convertingToCGFloat(input: bottomRightInput)))
                 
                 VStack{
-                    InputFieldView(input: $input)
+                    InputFields(topLeftInput: $topLeftInput, topRightInput: $topRightInput, bottomLeftInput: $bottomRightInput, bottomRightInput: $bottomLeftInput)
                         .padding()
+                    
+                    InputFieldView(input: $input, label: "Label Text")
                 }
             }
         }
