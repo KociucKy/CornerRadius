@@ -19,8 +19,10 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundView()
-            
-            VStack{
+
+            VStack(spacing: 150){
+                HeaderView()
+                
                 Text(input)
                     .foregroundColor(.white)
                     .font(.largeTitle)

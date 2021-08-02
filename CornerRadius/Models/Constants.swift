@@ -16,5 +16,12 @@ enum General{
         public static let inputWidth = CGFloat(170.0)
         public static let inputHeight = CGFloat(50.0)
         public static let cornerRadius = CGFloat(21.0)
+        public static let kerning = CGFloat(3.0)
+    }
+    
+    enum strings{
+        public static let title = "LabelX"
+        public static let firstThingToDo = "Add a label text"
+        public static let secondThingToDo = "and create your own label style"
     }
 }

@@ -14,8 +14,9 @@
 		8800D1F526B6C36100A686FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1F426B6C36100A686FB /* Constants.swift */; };
 		8800D1F726B6C37D00A686FB /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1F626B6C37D00A686FB /* RectangleView.swift */; };
 		8800D1F926B6C38D00A686FB /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1F826B6C38D00A686FB /* InputFieldView.swift */; };
-		8800D1FB26B6C39700A686FB /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1FA26B6C39700A686FB /* ButtonsView.swift */; };
 		8800D1FD26B6C3CC00A686FB /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */; };
+		88BA1A0B26B8429400AAFA60 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA1A0A26B8429400AAFA60 /* HeaderView.swift */; };
+		88BA1A0D26B843D900AAFA60 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA1A0C26B843D900AAFA60 /* TextViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		8800D1F426B6C36100A686FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8800D1F626B6C37D00A686FB /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8800D1F826B6C38D00A686FB /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
-		8800D1FA26B6C39700A686FB /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		88BA1A0A26B8429400AAFA60 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		88BA1A0C26B843D900AAFA60 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,8 @@
 				8800D1FC26B6C3CC00A686FB /* BackgroundView.swift */,
 				8800D1F626B6C37D00A686FB /* RectangleView.swift */,
 				8800D1F826B6C38D00A686FB /* InputFieldView.swift */,
-				8800D1FA26B6C39700A686FB /* ButtonsView.swift */,
+				88BA1A0A26B8429400AAFA60 /* HeaderView.swift */,
+				88BA1A0C26B843D900AAFA60 /* TextViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,11 +174,12 @@
 			files = (
 				8800D1E626B6C11800A686FB /* ContentView.swift in Sources */,
 				8800D1E426B6C11800A686FB /* CornerRadiusApp.swift in Sources */,
-				8800D1FB26B6C39700A686FB /* ButtonsView.swift in Sources */,
 				8800D1FD26B6C3CC00A686FB /* BackgroundView.swift in Sources */,
 				8800D1F726B6C37D00A686FB /* RectangleView.swift in Sources */,
 				8800D1F926B6C38D00A686FB /* InputFieldView.swift in Sources */,
+				88BA1A0D26B843D900AAFA60 /* TextViews.swift in Sources */,
 				8800D1F526B6C36100A686FB /* Constants.swift in Sources */,
+				88BA1A0B26B8429400AAFA60 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
