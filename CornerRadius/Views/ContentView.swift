@@ -28,7 +28,7 @@ struct ContentView: View {
                     .background(RectangleView(color: Color("RectangleColor"), tl: convertingToCGFloat(input: topLeftInput), tr: convertingToCGFloat(input: topRightInput), bl: convertingToCGFloat(input: bottomLeftInput), br: convertingToCGFloat(input: bottomRightInput)))
                 
                 VStack{
-                    InputFields(topLeftInput: $topLeftInput, topRightInput: $topRightInput, bottomLeftInput: $bottomRightInput, bottomRightInput: $bottomLeftInput)
+                    InputFields(topLeftInput: $topLeftInput, topRightInput: $topRightInput, bottomLeftInput: $bottomLeftInput, bottomRightInput: $bottomRightInput)
                         .padding()
                     
                     InputFieldView(input: $input, label: "Label Text")
