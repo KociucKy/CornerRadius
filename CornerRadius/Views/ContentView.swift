@@ -14,7 +14,6 @@ struct ContentView: View {
     @State private var topRightInput = ""
     @State private var bottomLeftInput = ""
     @State private var bottomRightInput = ""
-    @State private var text = "Hello World"
     
     var body: some View {
         ZStack {
@@ -22,7 +21,7 @@ struct ContentView: View {
 
             VStack(spacing: 150){
                 HeaderView()
-                
+                    .offset(y: -60)
                 Text(input)
                     .foregroundColor(.white)
                     .font(.largeTitle)
